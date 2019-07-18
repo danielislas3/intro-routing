@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.navbarr{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+height: 10vh;
+background-color: palegoldenrod;
+}
+.navbarr a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100%;
+  text-align: center;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: #333;
+
+}
+.navbarr a.nav-active{
+  background-color: white;
+  color: #a4fd;
+
+}
